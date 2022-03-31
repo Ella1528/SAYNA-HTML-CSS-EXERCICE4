@@ -1,0 +1,20 @@
+@media screen and (max-width:670px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .premier{
+        padding-left: 40px;
+    }
+    h1{
+        font-family: font;
+        padding-left: 100px;
+        padding-top: 430px;
+        color: #ffffff;
+        font-size: 40px;
+        
+    }
+
+    
+}

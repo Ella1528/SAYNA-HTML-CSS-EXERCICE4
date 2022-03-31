@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: font;
+    src: url(./Far-From\ Homecoming\ Updated.otf);
+}
+:root{
+    --blanc:#ffffff;
+    --rouge:#B11313;
+    --bleu:#114C92;
+    --jaune:#F1C530;
+    --noir:#000000;
+ 
+}
+.navigation{
+    width: 100%;
+    background-color: var(--bleu);
+    
+}
+    .navbar{
+        display: flex;
+        float: left;
+        height: 70px;
+        
+        padding-bottom: 15px;
+        
+    }
+    .premier{
+        display: flex;
+        text-align: center;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        margin: 0 auto;
+        width: 70%;
+        float: left;
+    }
+    .logo2{
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+    .logo3{
+        margin-left: 20px;
+    }
+    .deuxieme{
+        display: flex;
+        text-align: center;
+        float: left;
+       
+    }
+    .liste{
+        margin: 10px;
+        margin-left: 30px;
+        
+    }
+    .part1{
+        background-image: url(./Exercice\ n°4\ -\ No\ Way\ Home/Assets/Illustration/img19.png);
+        width: 100%;
+        height: 500px;
+    }
+    h1{
+        font-family: font;
+        padding-left: 100px;
+        padding-top: 280px;
+        color: #ffffff;
+        
+    }
+    h3{
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: left;
+        justify-content: left;
+        padding-top: 20px;
+        padding-left: 100px;
+     
+    }
+.part2{
+    width: 100%;
+    height: 650px; 
+    background-color: var(--bleu);
+    padding-bottom: 40px;
+    
+}
+p{
+    font-size: small;
+    color: #ffffff;
+    text-align: justify;
+}
+p span{
+    font-weight: 700;
+}
+.division2 p{
+    width:90% ;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+h2{
+    font-family: font;
+    color: #ffffff;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.division2 h3{
+    padding-top: 5px;
+}
+
+.division2 video{
+    bottom:20px ;
+    width: 80%;
+    height: 400px;
+}
+
+.part3{
+    background-image: url(./Exercice\ n°4\ -\ No\ Way\ Home/Assets/Illustration/img20.png);
+    width: 100%;
+    height: 300px;
+}
+.part3 h2{
+    padding-top: 70px;
+}
+.part4{
+    width: 100%;
+    height: 500px;
+    background-color: var(--bleu);
+    padding-left: 100px;
+    padding-top: 70px;
+    padding-right: 100px;
+   
+}
+.part4 p { 
+    width: 90%;
+}
+.part5{
+    width: 100%;
+    height: 550px;
+    background-color: var(--bleu);
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+.subd1 h2{
+    padding-top: 100px;
+    padding-left: 0px;
+}
+.part5 h3{
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-left: 0;
+}
+.subd1 {
+    position: relative;
+}
+.photos{
+    position: absolute;
+    bottom: 0px;
+    left: 150px;
+}
+.subd2 p{
+    width: 90%;
+    padding-left: 20px;
+}
+.subd2 h2{
+    padding-top: 190px;
+    padding-left: 20px;
+}
+.part6{
+    width: 100%;
+    height: 600px;
+    background-color: var(--bleu);
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.part6 p { 
+    width: 90%;
+}
+.bas{
+     align-items: center ;
+     justify-content: center;
+     text-align: center;
+}
+.haut{
+    padding-left: 20px;
+    padding-top: 60px;
+}
+.part7{
+    width: 100%;
+    height: auto;
+    padding-left: 100px;
+    background-color: var(--rouge);
+   
+}
+.suite1{
+    background-color: var(--rouge);
+    padding-right: 60px;
+    margin-bottom: 40px;
+}
+.suite2{
+    background-image: url(./Exercice\ n°4\ -\ No\ Way\ Home/Assets/Illustration/img32.png);
+    width: 100%;
+    height: auto;
+}
+.une{
+    display: flex;
+}
+.une p{
+    width: 90%;
+}
+
+.une img{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px; 
+}
+.deux img{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+.part8{
+    background-image: url(./Exercice\ n°4\ -\ No\ Way\ Home/Assets/Illustration/img33.png);
+    width: 100%;
+    height: 400px;
+    padding-right: 100px;
+}
+.back2{
+    background-color: #114b9277;
+    height: 400px;
+    padding-right: 20px;
+    
+}
+.back2 h3{
+    padding-top: 3px;
+    text-align: right;
+}
+.back2 h2{
+    padding-top: 20px;
+    padding-left: 0;
+    text-align: right;
+}
+.back2 p{
+    width: 100%;
+}
+.footer{
+    width: 100%;
+    height: 230px;
+    background-color: #000000;
+}
+ .footer1{
+    padding-top: 50px;
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 100px;
+}
+.footer1 p{
+    width: 100%;
+    margin-left: 5px;
+}
+
+.bouton7{
+   background-color: var(--bleu) ;
+   color: var(--blanc);
+   text-align: left;
+   position: center;
+   width: 130px;
+   height: 25px;
+   border: none;
+   margin: 0 auto;
+   margin-top: 4px;
+   border-radius: 50px;
+   margin-left: 120px;
+  
+   font-size: small;
+   padding-left: 5px;
+   
+}
+.lagos{
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+.logos1{
+    width: 3%;
+    border-radius: 50%;
+    background-color: var(--bleu);
+    text-align: center;
+    height: 40px;
+    margin: 5px;
+   
+}
+.footer2{
+    width: 100%;
+    padding-right: 100px;
+ 
+}
+.footer2 p{
+    text-align: center;
+    justify-content: center;
+    padding-left: 0px;
+    padding-right: 10px;
+    width: 100%;
+}

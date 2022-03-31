@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: font;
+    src: url(./Far-From\ Homecoming\ Updated.otf);
+}
+:root{
+    --blanc:#ffffff;
+    --rouge:#B11313;
+    --bleu:#114C92;
+    --jaune:#F1C530;
+    --noir:#000000;
+ 
+}
+.navigation{
+    width: 100%;
+    background-color: var(--rouge);
+    
+}
+    .navbar{
+        display: flex;
+        float: left;
+        height: 70px;
+        
+        padding-bottom: 15px;
+        
+    }
+    .premier{
+        display: flex;
+        text-align: center;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        margin: 0 auto;
+        width: 70%;
+        float: left;
+    }
+    .logo2{
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+    .logo3{
+        margin-left: 20px;
+    }
+    .deuxieme{
+        display: flex;
+        text-align: center;
+        float: left;
+       
+    }
+    .liste{
+        margin: 10px;
+        margin-left: 30px;
+        
+    }
+    .part1{
+        background-image: url(./Exercice\ n°4\ -\ No\ Way\ Home/Assets/Illustration/img35.png);
+        width: 100%;
+        height: 650px;
+        background-position: 100% 100%;
+       
+    }
+    h1{
+        font-family: font;
+        padding-left: 100px;
+        padding-top: 430px;
+        color: #ffffff;
+        font-size: 70px;
+        
+    }
+    h3{
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: left;
+        justify-content: left;
+        padding-top: 30px;
+        padding-left: 100px ;
+
+    }
+    .footer{
+        width: 100%;
+        height: 230px;
+        background-color: #000000;
+    }
+     .footer1{
+        padding-top: 50px;
+        text-align: center;
+        padding-right: 140px;
+        padding-left: 70px;
+    }
+    .footer1 p{
+        width: 100%;
+        color: #ffffff;
+        font-size: small;
+    }
+    .bouton7{
+       background-color:var(--rouge) ;
+       color: var(--blanc);
+       text-align: left;
+       position: center;
+       width: 130px;
+       height: 25px;
+       border: none;
+       margin: 0 auto;
+       margin-top: 4px;
+       border-radius: 50px;
+       margin-left: 10px;
+      
+       font-size: small;
+       padding-left: 5px;
+       
+    }
+    .lagos{
+        text-align: center;
+        justify-content: center;
+        padding-top: 40px;
+    }
+    .logos1{
+        width: 3%;
+        border-radius: 50%;
+        background-color: var(--rouge);
+        text-align: center;
+        height: 40px;
+        margin: 5px;
+    }
+    .footer2{
+        width: 100%;
+        
+
+    }
+    .footer2 p{
+        text-align: center;
+        justify-content: center;
+        padding-left: 0px;
+        padding-right: 10px;
+        width: 100%;
+        color: #ffffff;
+        font-size: small;
+    }
+

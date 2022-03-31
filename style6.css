@@ -1,0 +1,157 @@
+@media screen and (max-width:670px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .part1{
+        width: 100%;
+    }
+    .prime{
+        display: block;
+        margin-left: 40px;
+    }
+    .prime img{
+        margin: 5px;
+        
+    }
+    .division1{
+        background-image: url(./Exercice\ n°4\ -\ No\ Way\ Home/Assets/Illustration/img1.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: var(--rouge);
+        padding-left: 40px;
+       
+    }
+    .division1 h1{
+        padding-top: 50px;
+        padding-left: 40px;
+    }
+    .division1 h3{
+        display: none;
+    }
+    .division1 h4{
+        color:  #ffffff;
+        display: block;
+        padding-top: 10px;
+        padding-left: 40px;
+
+    }
+     p{
+        width: 100%;
+    }
+    .bouton1{
+        background-color:var(--blanc) ;
+        color: var(--rouge);
+        text-align: center;
+        position: center;
+        width: 150px;
+        height: 40px;
+        border: none;
+        margin: 0 auto;
+        margin-top: 4px;
+        border-radius: 50px;
+       margin-left: 40px;
+        
+     }
+     .bouton2{
+        color: var(--blanc);
+        text-align: center;
+        position: center;
+        width: 180px;
+        height: 40px;
+       background-color: #7e1919;
+        margin: 0 auto;
+        margin-top: 4px;
+        border-radius: 50px;
+       margin-left: 10px;
+       border: solid 1px #ffffff;
+        
+     }
+     .division2{
+         width: 100%;
+         margin: 0 auto;
+         padding-top: 10px;
+     }
+     .division2 img{
+        margin-left: 0px;
+       
+    }
+    .division2 p{
+        width: 70%;
+        text-align: left;
+        justify-content: left;
+    }
+    .sub3{
+        padding-right: 70px;
+    }
+    .buton{
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 80px;
+    }
+    .division2 img{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-left: 200px;
+        
+    }
+    .division2 p{
+        width: 80%;
+    }
+    .part2{
+        margin: 0 auto;
+    }
+    .suite1{
+        display: none;
+    }
+    .suite2{
+        background-image: url(./Exercice\ n°4\ -\ No\ Way\ Home/Assets/Illustration/img5.png);
+        background-size: cover ;
+        background-repeat: no-repeat;
+        padding-bottom: 50px;
+        text-align: justify;
+    }
+    .cours2{
+        display: none;
+    }
+    .part3 h2{
+        width: 100%; 
+        margin-top: 0;
+        padding-top: 40px;
+       
+     }
+     .part3{
+         padding-bottom: 80px;
+     }
+     .footer1{
+         display: none;
+     }
+     .format2{
+         text-align: center;
+         justify-content: center;
+     }
+     .format1 ul{
+         font-size: small;
+         padding-left: 40px;
+     }
+     .format1{
+         padding-top: 50px;
+     }
+     .footer2{
+         padding-bottom: 10px;
+
+     }
+     .logos1{
+        width: 5%;
+        border-radius: 50%;
+        background-color: var(--rouge);
+        text-align: center;
+        height: 40px;
+        margin: 5px;
+    }
+
+
+    
+}

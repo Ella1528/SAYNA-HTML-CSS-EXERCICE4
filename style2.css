@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: font;
+    src: url(./Far-From\ Homecoming\ Updated.otf);
+}
+:root{
+    --blanc:#ffffff;
+    --rouge:#B11313;
+    --bleu:#114C92;
+    --jaune:#F1C530;
+    --noir:#000000;
+ 
+}
+.navigation{
+    width: 100%;
+    background-color: var(--rouge);
+    
+}
+    .navbar{
+        display: flex;
+        float: left;
+        height: 70px;
+        
+        padding-bottom: 15px;
+        
+    }
+    .premier{
+        display: flex;
+        text-align: center;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        margin: 0 auto;
+        width: 70%;
+        float: left;
+    }
+    .logo2{
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+    .logo3{
+        margin-left: 20px;
+    }
+    .deuxieme{
+        display: flex;
+        text-align: center;
+        float: left;
+       
+    }
+    .liste{
+        margin: 10px;
+        margin-left: 30px;
+        
+    }
+    .part1{
+        background-color: var(--jaune);
+        width: auto;
+        height: auto;
+       
+    }
+        h1{
+            font-family: font;
+            padding-left: 100px;
+            padding-top: 150px;
+            color: #ffffff;
+            
+        }
+        h3{
+            color: #ffffff;
+            font-size: 20px;
+            font-weight: 500;
+            padding-left: 100px;
+            padding-top: 20px;
+        }
+        .suite2{
+            transform: rotateY(180deg);
+        }
+.part2{
+    width: 100%;
+    height: 550px;
+    background-color: var(--rouge);
+   
+}
+.division1{
+    
+    padding-left: 100px;
+}
+ h2{
+    font-family: font;
+   
+    padding-top: 50px;
+    color: #ffffff;
+}
+p{
+    font-size: small;
+    color: #ffffff;
+    width: 68%;
+    margin-bottom: 40px;
+    
+}
+.bouton1{
+    background-color: var(--rouge) ;
+    color: var(--blanc);
+    text-align: center;
+    position: center;
+    width: 320px;
+    height: 25px;
+    border: solid 1px #ffffff ;
+    margin: 0 auto;
+    margin-top: 4px;
+    border-radius: 50px;
+    margin-left: 100px;
+    margin-top: 10px;
+    font-size: small;
+   
+    
+ }
+ .bouton2{
+    background-color: var(--rouge) ;
+    color: var(--blanc);
+    text-align: center;
+    position: center;
+    width: 320px;
+    height: 100px;
+    border: solid 1px #ffffff ;
+    margin: 0 auto;
+    margin-top: 4px;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: small;
+   
+    
+ }
+ .bouton3{
+    background-color: var(--rouge) ;
+    color: var(--blanc);
+    text-align: center;
+    position: center;
+    width: 150px;
+    height: 40px;
+    border: solid 1px #ffffff ;
+    margin: 0 auto;
+    margin-top: 4px;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-top: 20px;
+    font-size: small;
+ 
+ }
+ .division2{
+     padding-top: 170px;
+     padding-right: 250px;
+ }
+ .part3{
+     width: 100%;
+     height: 600px;
+     background-color: var(--bleu);
+ }
+    .div1{
+        padding-left: 100px;
+    }
+    .div1 p{
+        width: 85%;
+       padding-top: 20px;
+       text-align: justify;
+
+    }
+    .div1 h2{
+        padding-top: 40px;
+       
+    }
+    .div2 p{
+        width: 85%;
+       padding-top: 105px;
+       text-align: justify;
+        
+    }
+    .div3{
+        width: 100%;
+    }
+    .bouton4{
+        background-color: var(--bleu) ;
+        color: var(--blanc);
+        text-align: center;
+        position: center;
+        width: 150px;
+        height: 40px;
+        border: solid 1px #ffffff ;
+        margin: 5px;
+        border-radius: 10px;
+        font-size: small;
+        margin-left: 40px;
+     }
+     .bouton5{
+        background-color: var(--bleu) ;
+        color: var(--blanc);
+        text-align: center;
+        position: center;
+        width: 150px;
+        height: 40px;
+        border: solid 1px #ffffff ;
+        margin: 5px;
+        border-radius: 10px;
+        font-size: small;
+        margin-top: 15px;
+        margin-left: 40px;
+     }
+     .footer{
+        width: 100%;
+        height: 230px;
+        background-color: #000000;
+    }
+     .footer1{
+        padding-top: 50px;
+        text-align: center;
+        padding-left: 70px;
+        padding-right: 100px;
+    }
+    
+    .bouton7{
+       background-color:var(--rouge) ;
+       color: var(--blanc);
+       text-align: left;
+       position: center;
+       width: 130px;
+       height: 25px;
+       border: none;
+       margin: 0 auto;
+       margin-top: 4px;
+       border-radius: 50px;
+       margin-left: 120px;
+      
+       font-size: small;
+       padding-left: 5px;
+       
+    }
+    .lagos{
+        text-align: center;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    .logos1{
+        width: 3%;
+        border-radius: 50%;
+        background-color: var(--rouge);
+        text-align: center;
+        height: 40px;
+        margin: 5px;
+       
+    }
+    .footer2{
+        width: 100%;
+        padding-right: 100px;
+     
+    }
+    .footer2 p{
+        text-align: center;
+        justify-content: center;
+        padding-left: 0px;
+        padding-right: 10px;
+        width: 100%;
+    }
+
+
+
+
