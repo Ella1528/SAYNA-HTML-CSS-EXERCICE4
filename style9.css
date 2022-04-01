@@ -1,0 +1,154 @@
+@media screen and (max-width:670px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .premier{
+        padding-left: 40px;
+    }
+    
+    .part1{
+        background-color: var(--jaune);
+        width: auto;
+        height: auto;
+       
+    }
+    h1{
+        font-family: font;
+        padding-left: 40px;
+        padding-top: 50px;
+        color: #ffffff;
+        
+    }
+    h3{
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 500;
+        padding-left: 40px;
+        padding-top: 10px;
+        width: 100%;
+    }
+
+    .division1{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding-left: 40px;
+    }
+    p{
+        font-size: small;
+        color: #ffffff;
+        width: 70%;
+        margin-bottom: 40px;
+        padding-left: 90px;
+        
+    }
+    h2{
+        font-family: font;
+       padding-right: 50px;
+        padding-top: 50px;
+        color: #ffffff;
+    }
+    .division2{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+        padding-right: 60px;
+        
+    }
+    .bouton3{
+        display: none;
+    }
+    .bouton6{
+        background-color:var(--blanc) ;
+        color: var(--rouge);
+        text-align: center;
+        position: center;
+        width: 200px;
+        height: 40px;
+        border: none;
+        margin: 0 auto;
+        margin-top: 4px;
+        border-radius: 10px;
+       margin-left: 100px;
+        
+     }
+     .div1{
+        padding-left: 0px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .div2{
+        margin:0 auto ;
+        padding: 0;
+
+    }
+    .div1 p{
+        width: 100%;
+       padding-top: 20px;
+       text-align: justify;
+       padding-bottom: 20px;
+       padding-right: 30px;
+
+    }
+    .div2 p{
+        width: 100%;
+       padding-top: 0px;
+       text-align: justify;
+       padding-bottom: 20px;
+       padding-right: 30px;
+        
+    }
+    .bouton4{
+        border-radius: 50px;
+
+    }
+    .special{
+        text-align: center;
+        align-items: center;
+        justify-content: center; 
+        padding: 0;
+        margin: 0;
+    }
+    .div2{
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+     .footer1{
+         display: none;
+     }
+     .format2{
+         text-align: center;
+         justify-content: center;
+     }
+     .format1 ul{
+         font-size: small;
+         padding-left: 40px;
+     }
+     .format1{
+         padding-top: 50px;
+     }
+     .footer2{
+         padding-bottom: 10px;
+         padding-left: 100px;
+
+     }
+     .logos1{
+        width: 10%;
+        border-radius: 50%;
+        background-color: var(--rouge);
+        text-align: center;
+        height: 40px;
+        margin: 5px;
+        
+    }
+
+
+    
+}
