@@ -29,24 +29,95 @@
     h3{
         padding-top: 5px;
         padding-left: 40px;
+        font-size: 14px;
     }
-    .part2 h3{
-        text-align: center;
-        padding-left: 0px;
-        padding-right: 50px;
+    p{
+        font-size: small;
     }
-    .part2 h2{
+    .division1 h3{
+       padding-left: 200px;
+        width: 100%;
+    }
+    .division1 h2{
         text-align: center;
-        padding-left: 0px;
+        align-items: center;
+        justify-content: center;
+        padding-left: 200px;
         padding-right: 50px;
-       
+        font-size: 20px;
+       width: 70%;
     }
     .division2 p{
         padding-left: 40px;
-        width: 90%;
+        width: 100%;
+        padding-right: 40px;
+        font-size: small;
+    }
+    .part3 h2{
+        padding-left: 40px;
+    }
+    .part3 h3{
+        padding-left: 100px;
+    }
+    .part4 p{
+        font-size: small;
+        padding-left: 0px;
+        width: 100%;
+       
+    }
+    .part4{
+        padding-left: 40px;
         padding-right: 40px;
     }
+    .subd1 {
+        position: relative;
+    }
+    .photos{
+        position: relative;
+        top: 20px;
+        left: -50px;
+    }
+    .part5 img{
+        right: -20px;
+    }
+    .part5{
+        width: 100%;
+        height: auto;
+        background-color: var(--bleu);
+        padding-left: 80px;
+        padding-right: 0px;
+        
+    }
     
+    .subd2 p { 
+        width: 100%;
+        padding-right: 40px;
+       
+    }
+    .div1 p{
+        width: 100%;
+        padding-left: 20px;
+    }
+    .part6{
+        padding-left: 40px;
+    }
+    .div2{
+        padding-right:0;
+    }
+    .div2 img {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 20px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+    .bas {
+       padding-top: 60px; 
+       margin-left: 5px;
+    }
      .footer1{
          display: none;
      }
